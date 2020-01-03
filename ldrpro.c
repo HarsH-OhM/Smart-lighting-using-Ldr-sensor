@@ -1,6 +1,6 @@
 int x; // input of LDR
 int y; // o/p Pwm value to be given to the base of the transistor to get reduced o/p voltagevoid setup() {
-
+void setup() {
 pinMode(A0,INPUT);
 pinMode(6,OUTPUT);
 Serial.begin(9600);
